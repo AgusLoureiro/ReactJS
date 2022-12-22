@@ -1,22 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <header className="App-header">
+        <ItemListContainer greeting="Construido con React-Bootstrap y con la ayuda de Flaticon"/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Bienvenido a Clancys!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

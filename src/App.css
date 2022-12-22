@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.cart{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart p{
+  font-weight: bold;
+  color: red;
+}
+
+.cartIcon{
+  height: 2rem;
+  width: 2rem;
+}
